@@ -14,8 +14,7 @@ function setupVideo(video) {
 
   console.log("[AutoBreak] Setup started on video:", video);
 
-  // let playingTime = 5 * 60 * 1000; // 5 minutes
-  let playingTime = 10 * 1000; // 5 minutes
+  let playingTime = 5 * 60 * 1000; // 5 minutes
   let breakTime = 3 * 60 * 1000;   // 3 minutes
 
   setInterval(() => {
